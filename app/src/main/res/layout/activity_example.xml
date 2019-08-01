@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+
+    tools:context=".Example">
+
+    <Button
+        android:id="@+id/btn_selectPicture"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:background="@android:drawable/toast_frame"
+        android:text="选择图片" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="-170dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/iv_showPicSelect"/>
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="300dp" />
+    <TextView
+        android:id="@+id/upload"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="-140dp"
+        android:layout_marginTop="420dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:drawableTop="@drawable/example"
+        android:text="识别" />
+</LinearLayout>
